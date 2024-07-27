@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+:root{
+	--main-background: #ffffff;
+	--main-fonts-color: #fff;
+	--main-decor-color:#00a9e2;
+    --main-header-background:#ffdbd8;
+	--main-font-family: 'Poppins', sans-serif;
+}
+
+*{
+	margin: 0;
+	padding: 0;
+	scroll-behavior: smooth;
+}
+
+main{
+	padding: 0;
+	width: 100%;
+	height: 100%;
+	background: hsla(61, 81%, 88%, 1);
+
+	background: linear-gradient(90deg, hsla(61, 81%, 88%, 1) 0%, hsla(310, 65%, 85%, 1) 50%, hsla(7, 89%, 69%, 1) 100%);
+
+	background: -moz-linear-gradient(90deg, hsla(61, 81%, 88%, 1) 0%, hsla(310, 65%, 85%, 1) 50%, hsla(7, 89%, 69%, 1) 100%);
+
+	background: -webkit-linear-gradient(90deg, hsla(61, 81%, 88%, 1) 0%, hsla(310, 65%, 85%, 1) 50%, hsla(7, 89%, 69%, 1) 100%);
+
+	filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#f8f9c7", endColorstr="#f2c1ea", GradientType=1 );
